@@ -1,3 +1,29 @@
-*{
-    
+footer{
+    position: relative;
+    background-color: #474747;
+}
+footer p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin: 36px 0px 31px 100px;
+  position: absolute;
+}
+footer div{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding: 36px 100px 31px 0px;      
+}
+
+footer div a{
+    margin-left: 36px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+footer div a:visited{
+    color: #ffffff;
 }
