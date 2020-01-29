@@ -1,19 +1,59 @@
+nav {
+  height: 100px;
+  padding: 0 50px;
+  background-color: #d9d9d9;
+}
+
 img.logo {
   max-width: 30px;
   width: 100%;
   height: auto;
+  margin-left: 30px;
 }
-.carousel-heigth{
+
+.botones {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+}
+
+.items-botones a {
+  margin-left: 50px;
+  color: #284b63;
+}
+
+.carrusel-form {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.formulario {
+  margin-top: 1em;
+  position: relative;
+  right: 0;
+}
+
+.carousel-heigth {
   height: 520px;
   overflow: hidden;
 }
-.card-group{
+.card-group {
   display: flex;
-  justify-content: space-around;;
+  justify-content: space-around;
+  background-color: #284b63;
+  padding-bottom: 30px;
 }
-.card{
+.card {
   margin: 20px;
 }
+
+.card-body {
+  text-align: center;
+  background-color: #d9d9d9;
+}
+
 .informacion .informacion-title {
   font-size: 48px;
   padding-top: 70px;
@@ -30,8 +70,28 @@ img.logo {
   width: 100%;
   height: 240px;
   position: relative;
-  background-color: blue;
+  background-color: #3c6e71;
 }
+
+.call-to-action a {
+  width: 20%;
+  height: 60px;
+  padding: auto 0;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  letter-spacing: 2px;
+}
+
+.call-to-action a:hover {
+  background-color: #d9d9d9;
+  color: #284b63;
+  font-weight: 700;
+}
+
 .novedades a {
   position: relative;
   margin: auto;
