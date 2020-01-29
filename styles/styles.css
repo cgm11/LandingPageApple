@@ -3,6 +3,17 @@ img.logo {
   width: 100%;
   height: auto;
 }
+.carousel-heigth{
+  height: 520px;
+  overflow: hidden;
+}
+.card-group{
+  display: flex;
+  justify-content: space-around;;
+}
+.card{
+  margin: 20px;
+}
 .informacion .informacion-title {
   font-size: 48px;
   padding-top: 70px;
